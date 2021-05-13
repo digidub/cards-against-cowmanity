@@ -28,10 +28,8 @@ const App = (props) => {
   const [highScore, setHighScore] = useState(0);
 
   const handleClick = (e) => {
-    const clickedCow = e.target.innerText;
-    console.log(clickedCow);
+    const clickedCow = e.target.alt;
     if (AppLogic.checkIfClicked(clickedCow, clicked)) {
-      console.log('YOU LOSE!!!');
       if (score > highScore) setHighScore(score);
       setScore((score) => 0);
       setClicked([]);
