@@ -7,7 +7,8 @@ export const AppLogic = (() => {
     return clickedArray.concat(clicked);
   };
   const shuffle = (array) => {
-    return array.sort(() => Math.random() - 0.5);
+    const shuffledArray = [].concat(array.sort(() => Math.random() - 0.5));
+    return shuffledArray;
   };
 
   return {
