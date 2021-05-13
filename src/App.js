@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import GridContainer from './components/GridContainer';
 import { AppLogic } from './components/AppLogic';
 import Scoreboard from './components/Scoreboard';
@@ -40,6 +40,12 @@ const App = (props) => {
     const randomised = AppLogic.shuffle(cows);
     setCows(randomised);
   };
+
+  useEffect(() => {
+    const randomised = AppLogic.shuffle(cows);
+    setCows(randomised);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <div className='App'>
