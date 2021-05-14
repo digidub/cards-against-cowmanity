@@ -1,6 +1,8 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
+import GridContainer from './components/GridContainer';
 import { AppLogic } from './components/AppLogic';
+import Scoreboard from './components/Scoreboard';
 
 const App = (props) => {
   const [cows, setCows] = useState([
@@ -45,7 +47,12 @@ const App = (props) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  return <div className='App'>{props.children}</div>;
+  return (
+    <div className='App'>
+      <Scoreboard score={score} highScore={highScore} />
+      <GridContainer cows={cows} clicked={clicked} clickFunction={handleClick} />
+    </div>
+  );
 };
 
 export default App;
