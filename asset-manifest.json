@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/cards-against-cowmanity/static/css/main.a1711f34.chunk.css",
+    "main.js": "/cards-against-cowmanity/static/js/main.30c559d7.chunk.js",
+    "main.js.map": "/cards-against-cowmanity/static/js/main.30c559d7.chunk.js.map",
+    "runtime-main.js": "/cards-against-cowmanity/static/js/runtime-main.5b9d386e.js",
+    "runtime-main.js.map": "/cards-against-cowmanity/static/js/runtime-main.5b9d386e.js.map",
+    "static/js/2.962378e5.chunk.js": "/cards-against-cowmanity/static/js/2.962378e5.chunk.js",
+    "static/js/2.962378e5.chunk.js.map": "/cards-against-cowmanity/static/js/2.962378e5.chunk.js.map",
+    "index.html": "/cards-against-cowmanity/index.html",
+    "static/css/main.a1711f34.chunk.css.map": "/cards-against-cowmanity/static/css/main.a1711f34.chunk.css.map",
+    "static/js/2.962378e5.chunk.js.LICENSE.txt": "/cards-against-cowmanity/static/js/2.962378e5.chunk.js.LICENSE.txt",
+    "static/media/1.jpg": "/cards-against-cowmanity/static/media/1.5f907e0d.jpg",
+    "static/media/10.jpg": "/cards-against-cowmanity/static/media/10.a8b02829.jpg",
+    "static/media/11.jpg": "/cards-against-cowmanity/static/media/11.4c527d43.jpg",
+    "static/media/12.jpg": "/cards-against-cowmanity/static/media/12.4611d3d9.jpg",
+    "static/media/13.jpg": "/cards-against-cowmanity/static/media/13.5fe7b837.jpg",
+    "static/media/14.jpg": "/cards-against-cowmanity/static/media/14.7f82d92d.jpg",
+    "static/media/15.jpg": "/cards-against-cowmanity/static/media/15.87dc8039.jpg",
+    "static/media/16.jpg": "/cards-against-cowmanity/static/media/16.50b147b6.jpg",
+    "static/media/2.jpg": "/cards-against-cowmanity/static/media/2.f77946f2.jpg",
+    "static/media/3.jpg": "/cards-against-cowmanity/static/media/3.038ae56d.jpg",
+    "static/media/4.jpg": "/cards-against-cowmanity/static/media/4.77cdff28.jpg",
+    "static/media/5.jpg": "/cards-against-cowmanity/static/media/5.9f39816b.jpg",
+    "static/media/6.jpg": "/cards-against-cowmanity/static/media/6.b122f6a9.jpg",
+    "static/media/7.jpg": "/cards-against-cowmanity/static/media/7.152627a0.jpg",
+    "static/media/8.jpg": "/cards-against-cowmanity/static/media/8.5529c698.jpg",
+    "static/media/9.jpg": "/cards-against-cowmanity/static/media/9.f6c9a32c.jpg",
+    "static/media/Header.css": "/cards-against-cowmanity/static/media/happycow-webfont.6a40ab4d.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b9d386e.js",
+    "static/js/2.962378e5.chunk.js",
+    "static/css/main.a1711f34.chunk.css",
+    "static/js/main.30c559d7.chunk.js"
+  ]
+}
