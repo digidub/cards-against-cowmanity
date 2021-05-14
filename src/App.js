@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import GridContainer from './components/GridContainer';
 import { AppLogic } from './components/AppLogic';
 import Scoreboard from './components/Scoreboard';
+import Header from './components/Header';
 
 const App = (props) => {
   const [cows, setCows] = useState([
@@ -28,7 +29,7 @@ const App = (props) => {
   const [highScore, setHighScore] = useState(0);
 
   const handleClick = (e) => {
-    const clickedCow = e.target.alt;
+    const clickedCow = e.target.dataset.key;
     if (AppLogic.checkIfClicked(clickedCow, clicked)) {
       if (score > highScore) setHighScore(score);
       setScore((score) => 0);
@@ -49,6 +50,7 @@ const App = (props) => {
 
   return (
     <div className='App'>
+      <Header />
       <Scoreboard score={score} highScore={highScore} />
       <GridContainer cows={cows} clicked={clicked} clickFunction={handleClick} />
     </div>
