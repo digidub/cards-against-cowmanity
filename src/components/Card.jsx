@@ -10,14 +10,16 @@ function importAll(r) {
 const images = importAll(require.context('../assets/images', false, /\.(png|jpe?g|svg)$/));
 
 const Card = (props) => {
-  return (
-    <div
+  return <img src={images[props.image].default} alt={props.image} onClick={props.clickFunction} />;
+};
+
+{
+  /* <img
       className={'image'}
       style={{ backgroundImage: 'url(' + images[props.image].default + ')' }}
       data-key={props.image}
       onClick={props.clickFunction}
-    />
-  );
-};
+    /> */
+}
 
 export default Card;
