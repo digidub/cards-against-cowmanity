@@ -29,7 +29,9 @@ const App = (props) => {
   const [highScore, setHighScore] = useState(0);
 
   const handleClick = (e) => {
-    const clickedCow = e.target.dataset.key;
+    console.log(e);
+    const clickedCow = e.target.alt;
+    console.log(clickedCow);
     if (AppLogic.checkIfClicked(clickedCow, clicked)) {
       if (score > highScore) setHighScore(score);
       setScore((score) => 0);
