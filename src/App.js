@@ -51,8 +51,8 @@ const App = (props) => {
   return (
     <div className='App'>
       <Header />
-      <GridContainer cows={cows} clicked={clicked} clickFunction={handleClick} />
       <Scoreboard score={score} highScore={highScore} />
+      <GridContainer cows={cows} clicked={clicked} clickFunction={handleClick} />
     </div>
   );
 };
