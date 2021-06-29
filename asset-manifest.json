@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/cards-against-cowmanity/static/css/main.a1711f34.chunk.css",
-    "main.js": "/cards-against-cowmanity/static/js/main.30c559d7.chunk.js",
-    "main.js.map": "/cards-against-cowmanity/static/js/main.30c559d7.chunk.js.map",
+    "main.css": "/cards-against-cowmanity/static/css/main.e01fb1b3.chunk.css",
+    "main.js": "/cards-against-cowmanity/static/js/main.6b37511f.chunk.js",
+    "main.js.map": "/cards-against-cowmanity/static/js/main.6b37511f.chunk.js.map",
     "runtime-main.js": "/cards-against-cowmanity/static/js/runtime-main.5b9d386e.js",
     "runtime-main.js.map": "/cards-against-cowmanity/static/js/runtime-main.5b9d386e.js.map",
     "static/js/2.962378e5.chunk.js": "/cards-against-cowmanity/static/js/2.962378e5.chunk.js",
     "static/js/2.962378e5.chunk.js.map": "/cards-against-cowmanity/static/js/2.962378e5.chunk.js.map",
     "index.html": "/cards-against-cowmanity/index.html",
-    "static/css/main.a1711f34.chunk.css.map": "/cards-against-cowmanity/static/css/main.a1711f34.chunk.css.map",
+    "static/css/main.e01fb1b3.chunk.css.map": "/cards-against-cowmanity/static/css/main.e01fb1b3.chunk.css.map",
     "static/js/2.962378e5.chunk.js.LICENSE.txt": "/cards-against-cowmanity/static/js/2.962378e5.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/cards-against-cowmanity/static/media/1.5f907e0d.jpg",
     "static/media/10.jpg": "/cards-against-cowmanity/static/media/10.a8b02829.jpg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.5b9d386e.js",
     "static/js/2.962378e5.chunk.js",
-    "static/css/main.a1711f34.chunk.css",
-    "static/js/main.30c559d7.chunk.js"
+    "static/css/main.e01fb1b3.chunk.css",
+    "static/js/main.6b37511f.chunk.js"
   ]
 }
