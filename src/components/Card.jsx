@@ -13,13 +13,4 @@ const Card = (props) => {
   return <img src={images[props.image].default} alt={props.image} onClick={props.clickFunction} />;
 };
 
-{
-  /* <img
-      className={'image'}
-      style={{ backgroundImage: 'url(' + images[props.image].default + ')' }}
-      data-key={props.image}
-      onClick={props.clickFunction}
-    /> */
-}
-
 export default Card;
